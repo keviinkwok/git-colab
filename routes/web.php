@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/kevin',function(){
+    return "Ini Buatan Kevin";
+});
