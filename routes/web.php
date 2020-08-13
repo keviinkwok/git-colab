@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/kevin',function(){
     return "Ini Buatan Kevin";
 });
+
+Route::get('/riyan',function(){
+    return "Ini Buatan Riyan";
+});
