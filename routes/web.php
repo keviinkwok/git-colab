@@ -15,10 +15,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/kevin',function(){
+Route::get('/kevin', function () {
     return "Ini Buatan Kevin";
 });
 
-Route::get('/riyan',function(){
+Route::get('/riyan', function () {
     return "Ini Buatan Riyan";
+});
+
+Route::get('/ridwan', function () {
+    return "Ini Buat Ridwan";
 });
